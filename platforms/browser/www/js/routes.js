@@ -32,16 +32,6 @@ var routes = [
     name: 'user',
   },
   {
-    path: '/cek-saldo/',
-    url: './pages/cek-saldo.html',
-    name: 'cek-saldo',
-  },
-  {
-    path: '/transfer-antar-rekening/',
-    url: './pages/transfer-antar-rekening.html',
-    name: 'transfer-antar-rekening',
-  },
-  {
     path: '/trx/',
     url: './pages/trx.html',
     name: 'trx',
@@ -70,6 +60,16 @@ var routes = [
     path: '/issue/',
     url: './pages/issue.html',
     name: 'issue',
+  },
+  {
+    path: '/transfer-antar-bank/',
+    url: './pages/transfer-antar-bank.html',
+    name: 'transfer-antar-bank',
+  },
+  {
+    path: '/cek-saldo/',
+    url: './pages/cek-saldo.html',
+    name: 'cek-saldo',
   },
   {
     path: '/report/',

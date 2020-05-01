@@ -41,12 +41,12 @@ $$(document).on('page:init', '.page[data-name="dashboard"]', function () {
 
 	});
 
-	$$("#transfer-btn").on('click', function() {
-		app.views.main.router.navigate('/transfer-antar-rekening/', {reloadCurrent: true, transition: 'f7-circle'});
+	$$("#transfer-antar-bank-btn").on('click', function() {
+		app.views.main.router.navigate('/transfer-antar-bank/', {reloadCurrent: true, transition: 'f7-circle'});
 
 	});
 
-	$$("#cekSaldo-btn").on('click', function() {
+	$$("#cek-saldo-btn").on('click', function() {
 		app.views.main.router.navigate('/cek-saldo/', {reloadCurrent: true, transition: 'f7-circle'});
 
 	});

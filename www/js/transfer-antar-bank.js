@@ -1,9 +1,9 @@
- /* 
+/* 
 	nama : muchamad syariful umam
 	nim : 1117090059
 	kelas : ti sen 17 rm
   */
-$$(document).on('page:init', '.page[data-name="cek-saldo"]', function () {
+$$(document).on('page:init', '.page[data-name="transfer-antar-bank"]', function () {
 	view.html = '';
 	for (var i = 0; i < data.length; i++) {
 		view.html += '<div class="col-100 card ngalongware-color-bg-blue" id="' + data[i].id + '-btn" >' + 
@@ -46,7 +46,7 @@ $$(document).on('page:init', '.page[data-name="cek-saldo"]', function () {
 			'</div>';
 	}
 	
-	$$("#submit-cek-saldo-btn").on('click', function() {
+	$$("#submit-transfer-btn").on('click', function() {
 		app.dialog.alert('Ooops... The page is under construction', 'CLASS MOBILE - panpan');
 		return;
 	

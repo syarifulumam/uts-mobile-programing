@@ -1,3 +1,8 @@
+/* 
+	nama : muchamad syariful umam
+	nim : 1117090059
+	kelas : ti sen 17 rm
+  */
 var user = {
 	username: '',
 	password: '',
@@ -5,6 +10,7 @@ var user = {
 	lastName: '',
 	accountNo: '',
 	idNo: '',
+	address: '',
 	cby: '',
 	cdate: '',
 	mby: '',

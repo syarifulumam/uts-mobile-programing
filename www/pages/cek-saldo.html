@@ -1,9 +1,14 @@
+<!-- 	
+	nama : muchamad syariful umam
+	nim : 1117090059
+	kelas : ti sen 17 rm
+ -->
 <div class="page" id="cek-saldo" data-name="cek-saldo">
   <div class="navbar">
     <div class="navbar-bg"></div>
     <div class="navbar-inner sliding">
       <div class="left">
-        <a href="/dashboard/" class="link"><!--  class="link back"> -->
+        <a href="/dashboard/" class="link">
           <i class="icon icon-back"></i>
           <span class="if-not-md">Back</span>
         </a>
@@ -24,17 +29,18 @@
     </div>
   </div>
   <div class="page-content" style="background-color: orange;">
-    <div class="block-title">Cek Saldo</div>
+    <div class="block-title">transfer-antar-bank</div>
     <div class="block block-strong" style="background-color: orange;">
-		<!-- <div class="row" id="list-resolved"></div> -->
-		<form class="list" id="login-newTrx" style="background-color: orange;">
+		<form class="list" id="cek-saldo" style="background-color: orange;">
 			<ul>
 				<li class="item-content item-input">
 					<div class="item-inner">
-						<div class="item-title item-label">Masukan PIN</div>
+						<div class="item-title item-label">Source Of Fund</div>
 						<div class="item-input-wrap">
-							<input name="pin" type="text" id="pin" placeholder="Masukan PIN">
-							<span class="input-clear-button"></span>
+							<select name="sourceOfFund" id="sourceOfFund">
+								<option value="123456" label="rekening tahapan">rekening tahapan</option>
+								<option value="654321" label="rekening biasa">rekening biasa</option>
+							</select>
 						</div>
 					</div>
 				</li>
@@ -42,7 +48,7 @@
 		</form>
 		<div class="block block-strong" style="background-color: orange;">
 			<p class="row">
-				<a class="col button button-fill color-white text-color-orange" id="submit-btn" href="#" type="submit">Submit</a>
+				<a class="col button button-fill color-white text-color-orange" id="submit-cek-saldo-btn" href="#" type="submit">Submit</a>
 			</p>
 		</div>	
 	</div>
