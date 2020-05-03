@@ -47,7 +47,7 @@ $$(document).on('page:init', '.page[data-name="transfer-antar-bank"]', function 
 	}
 	
 	$$("#submit-transfer-btn").on('click', function() {
-		app.dialog.alert('Ooops... The page is under construction', 'CLASS MOBILE - panpan');
+		app.dialog.alert('Ooops... The page is under construction <br/> copyright syariful umam', 'CLASS MOBILE - panpan');
 		return;
 	
 	});
